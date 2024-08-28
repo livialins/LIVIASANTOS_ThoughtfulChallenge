@@ -19,7 +19,7 @@ class SaveData:
             todays_date = datetime.now().strftime("%Y-%m-%d")
 
             #output_path = os.path.join(output_path, todays_date, search_phrase.lower())  
-            filename = f"news_{search_phrase}_{todays_date}.xlsx"
+            filename = f"result.xlsx"
 
             # Check if output_path exists, if not create it
             if not os.path.exists(output_path):
