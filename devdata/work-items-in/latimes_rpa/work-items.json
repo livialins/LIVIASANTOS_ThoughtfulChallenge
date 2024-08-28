@@ -1,8 +1,8 @@
 [
   {
       "payload": {
-         "search_phrase": "Brazil",
-         "topic": "Soccer",
+         "search_phrase": "trump",
+         "topic": "California",
          "n_months": 1,
          "max_news": "999"
       },
