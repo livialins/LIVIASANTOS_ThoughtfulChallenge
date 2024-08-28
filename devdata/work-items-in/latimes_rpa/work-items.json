@@ -1,13 +1,10 @@
 [
   {
       "payload": {
-         "search_phrase": "business",
+         "search_phrase": "Brazil",
          "topic": "Soccer",
          "n_months": 0,
          "max_news": "999"
-      },
-      "files": {
-          "result.xlsx": "result.xlsx"
       }
   }
 ]
