@@ -3,7 +3,7 @@
       "payload": {
          "search_phrase": "business",
          "topic": "Soccer",
-         "n_months": 1,
+         "n_months": 0,
          "max_news": "999"
       },
       "files": {
