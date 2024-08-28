@@ -15,7 +15,7 @@ def run_process():
 
     for item in workitems.inputs:
         try:
-            payload = challenge.validator.validate_payload(item.payload)
+            payload = app_controller.validator.validate_payload(item.payload)
             logger.info(f"Item payload: {payload}")
 
             search_news = NewsSearcher(app_controller, payload)
