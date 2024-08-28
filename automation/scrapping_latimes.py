@@ -1,10 +1,9 @@
 from time import sleep
 from datetime import datetime
-# from teste import payload
 import os
 
 class ScrapeNews:
-    def __init__(self, challenge, payload):
+    def __init__(self, challenge, item_payload):
         self.challenge = challenge
         self.max_news = item_payload["max_news"]
         self.n_months = item_payload["n_months"]
