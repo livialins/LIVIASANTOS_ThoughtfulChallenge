@@ -4,7 +4,7 @@
          "search_phrase": "Brazil",
          "topic": "Soccer",
          "n_months": 0,
-         "max_news": "999"
+         "max_news": 999
       }
   }
 ]

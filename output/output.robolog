@@ -1,0 +1,1519 @@
+V 0.0.4
+T 2024-08-29T14:44:35.312+00:00
+ID 1|35b41abb-6615-11ef-a1a6-a44cc84887d6
+I "sys.platform=win32"
+I "python=3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:34:57) [MSC v.1936 64 bit (AMD64)]"
+M a:"tasks.py"
+SR a|0.011
+M c:"Collect tasks"
+M d:"setup"
+M e:""
+P b:c|d|e|e|0
+ST b|0.012
+M f:"regular"
+M g:"\nCollecting tasks from: tasks.py\n"
+C f|g|0.013
+M h:"stderr"
+M i:"2024-08-29 11:44:38,581 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.\n"
+C h|i|3.268
+M j:"PASS"
+ET j|e|11.652
+M l:"run_process"
+M m:"tasks"
+M n:"c:\\Users\\LIVIA\\Desktop\\LIVIASANTOS_ThoughtfulChallenge\\tasks.py"
+M o:null
+P k:l|m|n|o|11
+ST k|11.652
+M p:"============================= "
+C f|p|11.652
+M q:"Running: "
+C f|q|11.652
+M r:"task_name"
+C r|l|11.652
+M s:" =============================\n"
+C f|s|11.653
+M t:"METHOD"
+SE k|t|11.655
+M v:"AppController.__init__"
+M w:"src.challenge"
+M x:"c:\\Users\\LIVIA\\Desktop\\LIVIASANTOS_ThoughtfulChallenge\\src\\challenge.py"
+P u:v|w|x|e|10
+SE u|t|11.655
+M z:"get_text_asset"
+M A:"utils.assets"
+M B:"c:\\Users\\LIVIA\\Desktop\\LIVIASANTOS_ThoughtfulChallenge\\utils\\assets.py"
+P y:z|A|B|e|4
+SE y|t|11.656
+M C:"asset_name"
+M D:"str"
+M E:"'URL'"
+EA C|D|E
+P F:z|A|B|e|5
+M G:"storage"
+M H:"Storage"
+M I:"<RPA.Robocorp.Storage.Storage object at 0x00000159FAFD4E20>"
+AS F|G|H|I|11.657
+M K:"Storage.get_text_asset"
+M L:"RPA.Robocorp.Storage"
+M M:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\RPA\\Robocorp\\Storage.py"
+P J:K|L|M|e|165
+SE J|t|11.657
+M N:"name"
+EA N|D|E
+P O:K|L|M|e|189
+M P:"'www.latimes.com'"
+R O|D|P|13.532
+EE t|j|13.532
+P Q:z|A|B|e|6
+M R:"asset"
+AS Q|R|D|P|13.535
+P S:z|A|B|e|7
+R S|D|P|13.536
+EE t|j|13.537
+SE y|t|13.537
+M T:"'SORT_TYPE'"
+EA C|D|T
+M U:"<RPA.Robocorp.Storage.Storage object at 0x00000159F7F38190>"
+AS F|G|H|U|13.538
+SE J|t|13.538
+EA N|D|T
+M V:"'Newest'"
+R O|D|V|15.077
+EE t|j|15.077
+AS Q|R|D|V|15.08
+R S|D|V|15.08
+EE t|j|15.08
+SE y|t|15.08
+M W:"'OUTPUT_PATH'"
+EA C|D|W
+M X:"<RPA.Robocorp.Storage.Storage object at 0x00000159F7F39D20>"
+AS F|G|H|X|15.081
+SE J|t|15.082
+EA N|D|W
+M Y:"'output'"
+R O|D|Y|16.582
+EE t|j|16.582
+AS Q|R|D|Y|16.583
+R S|D|Y|16.583
+EE t|j|16.583
+M 0:"HTTP.__init__"
+M 1:"RPA.HTTP"
+M 2:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\RPA\\HTTP.py"
+P Z:0|1|2|e|91
+SE Z|t|16.583
+M 3:"args"
+M 4:"tuple"
+M 5:"()"
+EA 3|4|5
+M 6:"kwargs"
+M 7:"dict"
+M 8:"{}"
+EA 6|7|8
+EE t|j|16.584
+M aa:"Logger.add"
+M ab:"loguru._logger"
+M ac:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\loguru\\_logger.py"
+P 9:aa|ab|ac|e|237
+SE 9|t|16.584
+M ad:"sink"
+M ae:"'output/logs_loguru.log'"
+EA ad|D|ae
+EA 6|7|8
+P af:aa|ab|ac|e|1011
+M ag:"int"
+M ah:"1"
+R af|ag|ah|16.59
+EE t|j|16.59
+EE t|j|16.59
+P ai:l|m|n|e|13
+M aj:"app_controller"
+M ak:"AppController"
+M al:"<src.challenge.AppController object at 0x00000159FB2793C0>"
+AS ai|aj|ak|al|16.59
+M an:"AppController.initialize"
+P am:an|w|x|e|22
+SE am|t|16.591
+M ap:"Selenium.__init__"
+M aq:"RPA.Browser.Selenium"
+M ar:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\RPA\\Browser\\Selenium.py"
+P ao:ap|aq|ar|e|241
+SE ao|t|16.591
+EA 3|4|5
+EA 6|7|8
+EE t|j|16.713
+M at:"wrapper"
+M au:"RPA.Browser.common"
+M av:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\RPA\\Browser\\common.py"
+P as:at|au|av|e|33
+SE as|t|16.714
+M aw:"(<RPA.Browser.Selenium.Selenium object at 0x00000159FAFD7E80>, 'www.latimes.com')"
+EA 3|4|aw
+EA 6|7|8
+P ax:at|au|av|e|36
+R ax|ag|ah|43.555
+EE t|j|43.555
+M az:"WindowKeywords.maximize_browser_window"
+P ay:az|aq|ar|e|170
+SE ay|t|43.555
+EA 3|4|5
+EA 6|7|8
+EE t|j|43.813
+EE t|j|43.813
+P aA:l|m|n|e|15
+M aB:"logger"
+M aC:"Logger"
+M aD:"<loguru.logger handlers=[(id=0, level=10, sink=<stderr>), (id=1, level=10, sink='output/logs_loguru.log')]>"
+AS aA|aB|aC|aD|43.813
+M aF:"WorkItems.__init__"
+M aG:"RPA.Robocorp.WorkItems"
+M aH:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\RPA\\Robocorp\\WorkItems.py"
+P aE:aF|aG|aH|e|935
+SE aE|t|43.814
+M aI:"autoload"
+M aJ:"bool"
+M aK:"True"
+EA aI|aJ|aK
+M aL:"root"
+M aM:"NoneType"
+M aN:"None"
+EA aL|aM|aN
+M aO:"default_adapter"
+M aP:"ABCMeta"
+M aQ:"<class 'RPA.Robocorp.WorkItems.RobocorpAdapter'>"
+EA aO|aP|aQ
+M aR:"auto_parse_email"
+M aS:"{('email.text', '__mail.html'): ('email.body', 'parsedEmail.Body'), 'rawEmail': 'parsedEmail'}"
+EA aR|7|aS
+EE t|j|43.814
+P aT:l|m|n|e|17
+M aU:"workitems"
+M aV:"WorkItems"
+M aW:"<RPA.Robocorp.WorkItems.WorkItems object at 0x00000159F8E11E40>"
+AS aT|aU|aV|aW|43.814
+M aY:"WorkItems.get_input_work_item"
+P aX:aY|aG|aH|e|1174
+SE aX|t|43.814
+M aZ:"_internal_call"
+M a0:"False"
+EA aZ|aJ|a0
+P a1:aY|aG|aH|e|1201
+M a2:"WorkItem"
+M a3:"WorkItem(id=0, payload={'search_phrase': 'Brazil', ' ... _months': 0, 'max_news': 999}, files=0)"
+R a1|a2|a3|43.819
+EE t|j|43.82
+M a5:"WorkItems.get_work_item_payload"
+P a4:a5|aG|aH|e|1327
+SE a4|t|43.82
+P a6:a5|aG|aH|e|1341
+M a7:"{'search_phrase': 'Brazil', 'topic': 'Soccer', 'n_months': 0, 'max_news': 999}"
+R a6|7|a7|43.822
+EE t|j|43.823
+P a8:l|m|n|e|19
+M a9:"payload"
+AS a8|a9|7|a7|43.823
+M bb:"Logger.info"
+P ba:bb|ab|ac|e|2042
+SE ba|t|43.823
+M bc:"__self"
+EA bc|aC|aD
+M bd:"__message"
+M be:"\"Item payload: {'search_phrase': 'Brazil', 'topic': 'Soccer', 'n_months': 0, 'max_news': 999}\""
+EA bd|D|be
+EA 3|4|5
+EA 6|7|8
+M bf:"2024-08-29 11:45:19.135 | INFO     | tasks:run_process:23 - Item payload: {'search_phrase': 'Brazil', 'topic': 'Soccer', 'n_months': 0, 'max_news': 999}\n"
+C h|bf|43.823
+EE t|j|43.823
+M bh:"NewsSearcher.__init__"
+M bi:"automation.search_latimes"
+M bj:"c:\\Users\\LIVIA\\Desktop\\LIVIASANTOS_ThoughtfulChallenge\\automation\\search_latimes.py"
+P bg:bh|bi|bj|e|6
+SE bg|t|43.823
+M bk:"challenge"
+EA bk|ak|al
+M bl:"item_payload"
+EA bl|7|a7
+SE Z|t|43.823
+EA 3|4|5
+EA 6|7|8
+EE t|j|43.823
+EE t|j|43.823
+P bm:l|m|n|e|25
+M bn:"search_news"
+M bo:"NewsSearcher"
+M bp:"<automation.search_latimes.NewsSearcher object at 0x00000159FAF2E830>"
+AS bm|bn|bo|bp|43.823
+M br:"ScrapeNews.__init__"
+M bs:"automation.scrapping_latimes"
+M bt:"c:\\Users\\LIVIA\\Desktop\\LIVIASANTOS_ThoughtfulChallenge\\automation\\scrapping_latimes.py"
+P bq:br|bs|bt|e|6
+SE bq|t|43.823
+EA bk|ak|al
+EA bl|7|a7
+EE t|j|43.823
+P bu:l|m|n|e|26
+M bv:"scrape_news_instance"
+M bw:"ScrapeNews"
+M bx:"<automation.scrapping_latimes.ScrapeNews object at 0x00000159FAF2D7E0>"
+AS bu|bv|bw|bx|43.823
+M bz:"SaveData.__init__"
+M bA:"automation.save_data"
+M bB:"c:\\Users\\LIVIA\\Desktop\\LIVIASANTOS_ThoughtfulChallenge\\automation\\save_data.py"
+P by:bz|bA|bB|e|8
+SE by|t|43.823
+EA bk|ak|al
+M bD:"Files.__init__"
+M bE:"RPA.Excel.Files"
+M bF:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\RPA\\Excel\\Files.py"
+P bC:bD|bE|bF|e|180
+SE bC|t|43.823
+EE t|j|43.823
+EE t|j|43.823
+P bG:l|m|n|e|27
+M bH:"save_data"
+M bI:"SaveData"
+M bJ:"<automation.save_data.SaveData object at 0x00000159F79C3670>"
+AS bG|bH|bI|bJ|43.823
+M bL:"NewsSearcher.execute_news_search"
+P bK:bL|bi|bj|e|48
+SE bK|t|43.823
+M bN:"NewsSearcher.execute_search_phrase"
+P bM:bN|bi|bj|e|20
+SE bM|t|43.823
+SE ba|t|43.823
+EA bc|aC|aD
+M bO:"'Search phrase: Brazil'"
+EA bd|D|bO
+EA 3|4|5
+EA 6|7|8
+M bP:"2024-08-29 11:45:19.143 | INFO     | automation.search_latimes:execute_search_phrase:22 - Search phrase: Brazil\n"
+C h|bP|43.832
+EE t|j|43.834
+M bR:"Locators.search_btn"
+M bS:"utils.locators"
+M bT:"c:\\Users\\LIVIA\\Desktop\\LIVIASANTOS_ThoughtfulChallenge\\utils\\locators.py"
+P bQ:bR|bS|bT|e|3
+SE bQ|t|43.834
+P bU:bR|bS|bT|e|4
+M bV:"\"//button[@data-element='search-button']\""
+R bU|D|bV|43.835
+EE t|j|43.836
+M bX:"ElementKeywords.click_button"
+M bY:"SeleniumLibrary.keywords.element"
+M bZ:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\SeleniumLibrary\\keywords\\element.py"
+P bW:bX|bY|bZ|e|584
+SE bW|t|43.836
+M b0:"locator"
+EA b0|D|bV
+M b1:"modifier"
+EA b1|aJ|a0
+EE t|j|44.87
+M b3:"Locators.input_search"
+P b2:b3|bS|bT|e|7
+SE b2|t|44.87
+P b4:b3|bS|bT|e|8
+M b5:"\"//input[@placeholder='Search']\""
+R b4|D|b5|44.87
+EE t|j|44.87
+M b7:"FormElementKeywords.input_text"
+M b8:"SeleniumLibrary.keywords.formelement"
+M b9:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\SeleniumLibrary\\keywords\\formelement.py"
+P b6:b7|b8|b9|e|272
+SE b6|t|44.87
+EA b0|D|b5
+M ca:"text"
+M cb:"'Brazil'"
+EA ca|D|cb
+M cc:"clear"
+EA cc|aJ|aK
+EE t|j|45.068
+M ce:"Locators.submit_search_btn"
+P cd:ce|bS|bT|e|11
+SE cd|t|45.068
+P cf:ce|bS|bT|e|12
+M cg:"\"//button[@data-element='search-submit-button']\""
+R cf|D|cg|45.068
+EE t|j|45.069
+SE bW|t|45.069
+EA b0|D|cg
+EA b1|aJ|a0
+EE t|j|47.935
+M ci:"Locators.results"
+P ch:ci|bS|bT|e|27
+SE ch|t|47.935
+P cj:ci|bS|bT|e|28
+M ck:"\"//ul[@class='search-results-module-results-menu']/li\""
+R cj|D|ck|47.935
+EE t|j|47.936
+M cm:"WaitingKeywords.wait_until_page_contains_element"
+M cn:"SeleniumLibrary.keywords.waiting"
+M co:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\SeleniumLibrary\\keywords\\waiting.py"
+P cl:cm|cn|co|e|223
+SE cl|t|47.936
+EA b0|D|ck
+M cp:"timeout"
+M cq:"20"
+EA cp|ag|cq
+M cr:"error"
+M cs:"\"Results page didn't load\""
+EA cr|D|cs
+M ct:"limit"
+EA ct|aM|aN
+P cu:cm|cn|co|e|247
+R cu|aM|aN|48.755
+EE t|j|48.755
+EE t|j|48.755
+M cw:"NewsSearcher.select_topic"
+P cv:cw|bi|bj|e|31
+SE cv|t|48.755
+SE ba|t|48.756
+EA bc|aC|aD
+M cx:"'Selecting topic: Soccer'"
+EA bd|D|cx
+EA 3|4|5
+EA 6|7|8
+M cy:"2024-08-29 11:45:24.070 | INFO     | automation.search_latimes:select_topic:33 - Selecting topic: Soccer\n"
+C h|cy|48.757
+EE t|j|48.759
+M cA:"Locators.see_all_topics"
+P cz:cA|bS|bT|e|19
+SE cz|t|48.759
+P cB:cA|bS|bT|e|20
+M cC:"\"(//span[contains(@class,'see-all-text')])[1]\""
+R cB|D|cC|48.76
+EE t|j|48.76
+M cE:"ElementKeywords.click_element"
+P cD:cE|bY|bZ|e|654
+SE cD|t|48.761
+EA b0|D|cC
+EA b1|aJ|a0
+M cF:"action_chain"
+EA cF|aJ|a0
+EE t|j|48.906
+M cH:"Locators.topic"
+P cG:cH|bS|bT|e|15
+SE cG|t|48.906
+M cI:"topic"
+M cJ:"'Soccer'"
+EA cI|D|cJ
+P cK:cH|bS|bT|e|16
+M cL:"\"//span[text()='Soccer']/ancestor::label/input[@type='checkbox']\""
+R cK|D|cL|48.907
+EE t|j|48.907
+M cN:"Selenium.get_webelement"
+P cM:cN|aq|ar|e|2266
+SE cM|t|48.907
+EA b0|D|cL
+M cO:"parent"
+EA cO|aM|aN
+M cP:"shadow"
+EA cP|aJ|a0
+P cQ:cN|aq|ar|e|2280
+M cR:"WebElement"
+M cS:"<selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.136\")>"
+R cQ|cR|cS|48.973
+EE t|j|48.977
+M cU:"if self.browser.get_webelement(self.locators.topic(self.topic))"
+P cT:cU|bi|bj|e|37
+M cV:"IF_SCOPE"
+SE cT|cV|48.977
+SE cG|t|48.977
+EA cI|D|cJ
+R cK|D|cL|48.977
+EE t|j|48.977
+M cX:"FormElementKeywords.select_checkbox"
+P cW:cX|b8|b9|e|104
+SE cW|t|48.977
+EA b0|D|cL
+EE t|j|49.161
+SE ba|t|49.162
+EA bc|aC|aD
+M cY:"'Topic selected'"
+EA bd|D|cY
+EA 3|4|5
+EA 6|7|8
+M cZ:"2024-08-29 11:45:24.474 | INFO     | automation.search_latimes:select_topic:39 - Topic selected\n"
+C h|cZ|49.163
+EE t|j|49.164
+EE cV|j|49.164
+EE t|j|49.164
+M c1:"NewsSearcher.apply_sorting"
+P c0:c1|bi|bj|e|43
+SE c0|t|54.165
+SE ba|t|54.165
+EA bc|aC|aD
+M c2:"'Applying sorting by Newest'"
+EA bd|D|c2
+EA 3|4|5
+EA 6|7|8
+M c3:"2024-08-29 11:45:29.478 | INFO     | automation.search_latimes:apply_sorting:44 - Applying sorting by Newest\n"
+C h|c3|54.166
+EE t|j|54.167
+M c5:"Locators.sort"
+P c4:c5|bS|bT|e|23
+SE c4|t|54.167
+P c6:c5|bS|bT|e|24
+M c7:"\"//select[@class='select-input']\""
+R c6|D|c7|54.168
+EE t|j|54.168
+M c9:"WaitingKeywords.wait_until_element_is_enabled"
+P c8:c9|cn|co|e|345
+SE c8|t|54.168
+EA b0|D|c7
+EA cp|aM|aN
+EA cr|aM|aN
+EE t|j|54.276
+SE c4|t|54.277
+R c6|D|c7|54.277
+EE t|j|54.277
+M db:"SelectElementKeywords.select_from_list_by_label"
+M dc:"SeleniumLibrary.keywords.selectelement"
+M dd:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\SeleniumLibrary\\keywords\\selectelement.py"
+P da:db|dc|dd|e|256
+SE da|t|54.277
+EA b0|D|c7
+M de:"labels"
+M df:"('Newest',)"
+EA de|4|df
+EE t|j|54.479
+EE t|j|54.48
+EE t|j|59.482
+M dh:"ScrapeNews.scrape_news"
+P dg:dh|bs|bt|e|14
+SE dg|t|59.482
+P di:dh|bs|bt|e|15
+M dj:"browser"
+M dk:"Selenium"
+M dl:"<RPA.Browser.Selenium.Selenium object at 0x00000159FAFD7E80>"
+AS di|dj|dk|dl|59.483
+P dm:dh|bs|bt|e|16
+M dn:"locators"
+M do:"Locators"
+M dp:"<utils.locators.Locators object at 0x00000159FAFD4040>"
+AS dm|dn|do|dp|59.484
+P dq:dh|bs|bt|e|17
+M dr:"validator"
+M ds:"DataChecker"
+M dt:"<utils.rpaValidators.DataChecker object at 0x00000159F7F39D20>"
+AS dq|dr|ds|dt|59.485
+P du:dh|bs|bt|e|18
+AS du|aB|aC|aD|59.485
+P dv:dh|bs|bt|e|20
+M dw:"news_counter"
+AS dv|dw|ag|ah|59.485
+P dx:dh|bs|bt|e|21
+M dy:"page"
+AS dx|dy|ag|ah|59.485
+P dz:dh|bs|bt|e|22
+M dA:"data"
+M dB:"list"
+M dC:"[]"
+AS dz|dA|dB|dC|59.485
+P dD:dh|bs|bt|e|23
+M dE:"has_finished"
+AS dD|dE|aJ|a0|59.485
+SE ba|t|59.491
+EA bc|aC|aD
+M dF:"'Starting Automation'"
+EA bd|D|dF
+EA 3|4|5
+EA 6|7|8
+M dG:"2024-08-29 11:45:34.806 | INFO     | automation.scrapping_latimes:scrape_news:24 - Starting Automation\n"
+C h|dG|59.495
+EE t|j|59.496
+M dI:"while news_counter <= self.max_news and (not has_finished)"
+P dH:dI|bs|bt|e|25
+M dJ:"WHILE"
+SE dH|dJ|59.496
+M dL:"Step: while news_counter <= self.max_news and (not has_finished)"
+P dK:dL|bs|bt|e|25
+M dM:"WHILE_STEP"
+SE dK|dM|59.499
+EA dw|ag|ah
+SE ch|t|59.5
+R cj|D|ck|59.502
+EE t|j|59.502
+M dO:"SeleniumLibrary.find_elements"
+M dP:"SeleniumLibrary"
+M dQ:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\SeleniumLibrary\\__init__.py"
+P dN:dO|dP|dQ|e|771
+SE dN|t|59.503
+EA b0|D|ck
+EA cO|aM|aN
+P dR:dO|dP|dQ|e|785
+M dS:"[<selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.478\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.479\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.480\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.481\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.482\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.483\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.484\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.485\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.486\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.487\")>]"
+R dR|dB|dS|59.571
+EE t|j|59.571
+P dT:dh|bs|bt|e|33
+M dU:"search_results"
+AS dT|dU|dB|dS|59.571
+M dW:"for (news_index, news) in enumerate(search_results, 1)"
+P dV:dW|bs|bt|e|35
+M dX:"FOR"
+SE dV|dX|59.572
+M dZ:"Step: for (news_index, news) in enumerate(search_results, 1)"
+P dY:dZ|bs|bt|e|35
+M d0:"FOR_STEP"
+SE dY|d0|59.573
+M d1:"news_index"
+EA d1|ag|ah
+M d2:"news"
+M d3:"<selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.478\")>"
+EA d2|cR|d3
+SE ba|t|59.573
+EA bc|aC|aD
+M d4:"'Starting scrapping of news: 1'"
+EA bd|D|d4
+EA 3|4|5
+EA 6|7|8
+M d5:"2024-08-29 11:45:34.886 | INFO     | automation.scrapping_latimes:scrape_news:37 - Starting scrapping of news: 1\n"
+C h|d5|59.576
+EE t|j|59.577
+M d7:"Locators.date"
+P d6:d7|bS|bT|e|39
+SE d6|t|59.577
+M d8:"index"
+EA d8|ag|ah
+P d9:d7|bS|bT|e|40
+M ea:"\"//ul[@class='search-results-module-results-menu']/li[1]//p[@class='promo-timestamp']\""
+R d9|D|ea|59.578
+EE t|j|59.579
+M ec:"ElementKeywords.get_text"
+P eb:ec|bY|bZ|e|552
+SE eb|t|59.579
+EA b0|D|ea
+P ed:ec|bY|bZ|e|558
+M ee:"'Aug. 27, 2024'"
+R ed|D|ee|59.641
+EE t|j|59.641
+P ef:dh|bs|bt|e|40
+M eg:"news_date"
+AS ef|eg|D|ee|59.642
+M ei:"DataChecker.validate_date_limit"
+M ej:"utils.rpaValidators"
+M ek:"c:\\Users\\LIVIA\\Desktop\\LIVIASANTOS_ThoughtfulChallenge\\utils\\rpaValidators.py"
+P eh:ei|ej|ek|e|8
+SE eh|t|59.642
+EA eg|D|ee
+M el:"months_to_scrape"
+M em:"0"
+EA el|ag|em
+SE ba|t|59.643
+EA bc|aC|aD
+M en:"'validating limit date for: Aug. 27, 2024'"
+EA bd|D|en
+EA 3|4|5
+EA 6|7|8
+M eo:"2024-08-29 11:45:34.956 | INFO     | utils.rpaValidators:validate_date_limit:9 - validating limit date for: Aug. 27, 2024\n"
+C h|eo|59.644
+EE t|j|59.645
+SE ba|t|59.646
+EA bc|aC|aD
+M ep:"'Trying to parse date: Aug. 27, 2024'"
+EA bd|D|ep
+EA 3|4|5
+EA 6|7|8
+M eq:"2024-08-29 11:45:34.959 | INFO     | utils.rpaValidators:_try_parse_date:33 - Trying to parse date: Aug. 27, 2024\n"
+C h|eq|59.647
+EE t|j|59.648
+P er:ei|ej|ek|e|14
+M es:"datetime"
+M et:"datetime.datetime(2024, 8, 27, 0, 0)"
+AS er|eg|es|et|59.654
+P eu:ei|ej|ek|e|16
+M ev:"limit_date"
+M ew:"datetime.datetime(2024, 8, 1, 0, 0)"
+AS eu|ev|es|ew|59.655
+P ex:ei|ej|ek|e|30
+R ex|aJ|a0|59.656
+EE t|j|59.656
+P ey:dh|bs|bt|e|41
+AS ey|dE|aJ|a0|59.656
+M eA:"Locators.heading"
+P ez:eA|bS|bT|e|31
+SE ez|t|59.657
+EA d8|ag|ah
+P eB:eA|bS|bT|e|32
+M eC:"\"//ul[@class='search-results-module-results-menu']/li[1]//h3[@class='promo-title']/a\""
+R eB|D|eC|59.657
+EE t|j|59.658
+SE eb|t|59.659
+EA b0|D|eC
+M eD:"'Galaxy vs. LAFC playoff showdown would be a dream come true for MLS'"
+R ed|D|eD|59.715
+EE t|j|59.716
+P eE:dh|bs|bt|e|48
+M eF:"news_heading"
+AS eE|eF|D|eD|59.716
+M eH:"Locators.description"
+P eG:eH|bS|bT|e|35
+SE eG|t|59.716
+EA d8|ag|ah
+P eI:eH|bS|bT|e|36
+M eJ:"\"//ul[@class='search-results-module-results-menu']/li[1]//p[@class='promo-description']\""
+R eI|D|eJ|59.716
+EE t|j|59.717
+SE eb|t|59.717
+EA b0|D|eJ
+M eK:"'With Los Angeles being such an important market for MLS, the rise of the Galaxy and LAFC has to be making league commissioner Don Garber happy.'"
+R ed|D|eK|59.758
+EE t|j|59.758
+P eL:dh|bs|bt|e|49
+M eM:"news_description"
+AS eL|eM|D|eK|59.758
+M eO:"Locators.picture"
+P eN:eO|bS|bT|e|43
+SE eN|t|59.758
+EA d8|ag|ah
+P eP:eO|bS|bT|e|44
+M eQ:"\"//ul[@class='search-results-module-results-menu']/li[1]//picture/img\""
+R eP|D|eQ|59.758
+EE t|j|59.758
+M eS:"Locators.picture_attr"
+P eR:eS|bS|bT|e|47
+SE eR|t|59.758
+P eT:eS|bS|bT|e|48
+M eU:"'src'"
+R eT|D|eU|59.758
+EE t|j|59.758
+M eW:"ElementKeywords.get_element_attribute"
+P eV:eW|bY|bZ|e|401
+SE eV|t|59.758
+EA b0|D|eQ
+M eX:"attribute"
+EA eX|D|eU
+P eY:eW|bY|bZ|e|416
+M eZ:"'https://ca-times.brightspotcdn.com/dims4/default/786b76d/2147483647/strip/true/crop/6382x4255+0+0/resize/840x560!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F3c%2F89%2F1e5e92924a0b82d9efe635e5e8c8%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2160054127'"
+R eY|D|eZ|59.817
+EE t|j|59.817
+P e0:dh|bs|bt|e|52
+M e1:"picture_url"
+AS e0|e1|D|eZ|59.817
+SE ba|t|59.819
+EA bc|aC|aD
+M e2:"'Starting validations for news'"
+EA bd|D|e2
+EA 3|4|5
+EA 6|7|8
+M e3:"2024-08-29 11:45:35.132 | INFO     | automation.scrapping_latimes:scrape_news:56 - Starting validations for news\n"
+C h|e3|59.821
+EE t|j|59.822
+M e5:"DataChecker.count_phrase_occurrences"
+P e4:e5|ej|ek|e|45
+SE e4|t|59.822
+M e6:"phrase"
+EA e6|D|cb
+M e7:"string"
+EA e7|D|eD
+P e8:e5|ej|ek|e|46
+M e9:"count"
+AS e8|e9|ag|em|59.823
+P fa:e5|ej|ek|e|47
+R fa|ag|em|59.823
+EE t|j|59.823
+P fb:dh|bs|bt|e|58
+M fc:"heading_phrases_count"
+AS fb|fc|ag|em|59.823
+SE e4|t|59.823
+EA e6|D|cb
+EA e7|D|eK
+AS e8|e9|ag|em|59.823
+R fa|ag|em|59.823
+EE t|j|59.823
+P fd:dh|bs|bt|e|61
+M fe:"description_phrases_count"
+AS fd|fe|ag|em|59.823
+M fg:"DataChecker.has_monetary_values"
+P ff:fg|ej|ek|e|49
+SE ff|t|59.823
+M fh:"arr"
+M fi:"['Galaxy vs. LAFC playoff showdown would be a dream come true for MLS', 'With Los Angeles being such an important market for MLS, the rise of the Galaxy and LAFC has to be making league commissioner Don Garber happy.']"
+EA fh|dB|fi
+P fj:fg|ej|ek|e|50
+M fk:"pattern"
+M fl:"'\\\\$[\\\\d,]+(\\\\.\\\\d+)?\\\\b|\\\\b\\\\d+\\\\s*(dollars|USD)\\\\b'"
+AS fj|fk|D|fl|59.823
+M fn:"for string in arr"
+P fm:fn|ej|ek|e|51
+SE fm|dX|59.823
+M fp:"Step: for string in arr"
+P fo:fp|ej|ek|e|51
+SE fo|d0|59.823
+EA e7|D|eD
+P fq:fg|ej|ek|e|52
+M fr:"matches"
+AS fq|fr|dB|dC|59.831
+EE d0|j|59.831
+SE fo|d0|59.831
+EA e7|D|eK
+AS fq|fr|dB|dC|59.831
+EE d0|j|59.831
+EE dX|j|59.831
+P fs:fg|ej|ek|e|56
+R fs|aJ|a0|59.831
+EE t|j|59.831
+P ft:dh|bs|bt|e|64
+M fu:"has_monetary_values"
+AS ft|fu|aJ|a0|59.831
+SE ba|t|59.835
+EA bc|aC|aD
+M fv:"'Downloading picture...'"
+EA bd|D|fv
+EA 3|4|5
+EA 6|7|8
+M fw:"2024-08-29 11:45:35.148 | INFO     | automation.scrapping_latimes:_download_picture:117 - Downloading picture...\n"
+C h|fw|59.837
+EE t|j|59.837
+M fy:"HTTP.download"
+P fx:fy|1|2|e|188
+SE fx|t|59.84
+M fz:"url"
+EA fz|D|eZ
+M fA:"target_file"
+M fB:"'output\\\\news_pic_Brazil_2024-08-29_1.jpg'"
+EA fA|D|fB
+M fC:"verify"
+EA fC|aJ|aK
+M fD:"force_new_session"
+EA fD|aJ|a0
+M fE:"overwrite"
+EA fE|aJ|a0
+M fF:"stream"
+EA fF|aJ|a0
+EA 6|7|8
+P fG:fy|1|2|e|260
+M fH:"Response"
+M fI:"<Response [200]>"
+R fG|fH|fI|61.738
+EE t|j|61.739
+P fJ:dh|bs|bt|e|69
+M fK:"picture_path"
+AS fJ|fK|D|fB|61.739
+P fL:dh|bs|bt|e|74
+M fM:"record"
+M fN:"{'Title': 'Galaxy vs. LAFC playoff showdown would be a dream come true for MLS', 'Description': 'With Los Angeles being such an important market for MLS, the rise of the Galaxy and LAFC has to be making league commissioner Don Garber happy.', 'Date': 'Aug. 27, 2024', 'Phrases in Heading': 0, 'Phrases in Description': 0, 'Has Money Amount': False, 'Picture Path': 'output\\\\news_pic_Brazil_2024-08-29_1.jpg'}"
+AS fL|fM|7|fN|61.739
+SE ba|t|61.739
+EA bc|aC|aD
+M fO:"'News appended to data successfully.'"
+EA bd|D|fO
+EA 3|4|5
+EA 6|7|8
+M fP:"2024-08-29 11:45:37.051 | INFO     | automation.scrapping_latimes:scrape_news:84 - News appended to data successfully.\n"
+C h|fP|61.739
+EE t|j|61.744
+EE d0|j|61.744
+SE dY|d0|61.745
+M fQ:"2"
+EA d1|ag|fQ
+M fR:"<selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.479\")>"
+EA d2|cR|fR
+SE ba|t|61.746
+EA bc|aC|aD
+M fS:"'Starting scrapping of news: 2'"
+EA bd|D|fS
+EA 3|4|5
+EA 6|7|8
+M fT:"2024-08-29 11:45:37.059 | INFO     | automation.scrapping_latimes:scrape_news:37 - Starting scrapping of news: 2\n"
+C h|fT|61.747
+EE t|j|61.748
+SE d6|t|61.748
+EA d8|ag|fQ
+M fU:"\"//ul[@class='search-results-module-results-menu']/li[2]//p[@class='promo-timestamp']\""
+R d9|D|fU|61.749
+EE t|j|61.75
+SE eb|t|61.751
+EA b0|D|fU
+M fV:"'Aug. 20, 2024'"
+R ed|D|fV|61.791
+EE t|j|61.791
+AS ef|eg|D|fV|61.791
+SE eh|t|61.791
+EA eg|D|fV
+EA el|ag|em
+SE ba|t|61.791
+EA bc|aC|aD
+M fW:"'validating limit date for: Aug. 20, 2024'"
+EA bd|D|fW
+EA 3|4|5
+EA 6|7|8
+M fX:"2024-08-29 11:45:37.103 | INFO     | utils.rpaValidators:validate_date_limit:9 - validating limit date for: Aug. 20, 2024\n"
+C h|fX|61.794
+EE t|j|61.794
+SE ba|t|61.796
+EA bc|aC|aD
+M fY:"'Trying to parse date: Aug. 20, 2024'"
+EA bd|D|fY
+EA 3|4|5
+EA 6|7|8
+M fZ:"2024-08-29 11:45:37.108 | INFO     | utils.rpaValidators:_try_parse_date:33 - Trying to parse date: Aug. 20, 2024\n"
+C h|fZ|61.797
+EE t|j|61.797
+M f0:"datetime.datetime(2024, 8, 20, 0, 0)"
+AS er|eg|es|f0|61.798
+AS eu|ev|es|ew|61.798
+R ex|aJ|a0|61.798
+EE t|j|61.799
+AS ey|dE|aJ|a0|61.799
+SE ez|t|61.8
+EA d8|ag|fQ
+M f1:"\"//ul[@class='search-results-module-results-menu']/li[2]//h3[@class='promo-title']/a\""
+R eB|D|f1|61.801
+EE t|j|61.801
+SE eb|t|61.801
+EA b0|D|f1
+M f2:"'By ditching its superstars, Paris Saint-Germain aims to achieve something greater'"
+R ed|D|f2|61.841
+EE t|j|61.842
+AS eE|eF|D|f2|61.843
+SE eG|t|61.843
+EA d8|ag|fQ
+M f3:"\"//ul[@class='search-results-module-results-menu']/li[2]//p[@class='promo-description']\""
+R eI|D|f3|61.843
+EE t|j|61.844
+SE eb|t|61.844
+EA b0|D|f3
+M f4:"'For the first time since 2017, Paris Saint-Germain is playing without Neymar, Lionel Messi or Kylian Mbappe, but their goals remain as ambitious as ever.'"
+R ed|D|f4|61.89
+EE t|j|61.89
+AS eL|eM|D|f4|61.89
+SE eN|t|61.89
+EA d8|ag|fQ
+M f5:"\"//ul[@class='search-results-module-results-menu']/li[2]//picture/img\""
+R eP|D|f5|61.89
+EE t|j|61.89
+SE eR|t|61.89
+R eT|D|eU|61.89
+EE t|j|61.89
+SE eV|t|61.89
+EA b0|D|f5
+EA eX|D|eU
+M f6:"'https://ca-times.brightspotcdn.com/dims4/default/7db33cc/2147483647/strip/true/crop/3531x2354+0+0/resize/840x560!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F93%2F7c%2F6258968545acae522f2bf5caa4ce%2Ffrench-league-preview-soccer-91858.jpg'"
+R eY|D|f6|61.935
+EE t|j|61.935
+AS e0|e1|D|f6|61.936
+SE ba|t|61.936
+EA bc|aC|aD
+EA bd|D|e2
+EA 3|4|5
+EA 6|7|8
+M f7:"2024-08-29 11:45:37.248 | INFO     | automation.scrapping_latimes:scrape_news:56 - Starting validations for news\n"
+C h|f7|61.938
+EE t|j|61.938
+SE e4|t|61.939
+EA e6|D|cb
+EA e7|D|f2
+AS e8|e9|ag|em|61.939
+R fa|ag|em|61.939
+EE t|j|61.939
+AS fb|fc|ag|em|61.939
+SE e4|t|61.939
+EA e6|D|cb
+EA e7|D|f4
+AS e8|e9|ag|em|61.939
+R fa|ag|em|61.939
+EE t|j|61.939
+AS fd|fe|ag|em|61.939
+SE ff|t|61.939
+M f8:"['By ditching its superstars, Paris Saint-Germain aims to achieve something greater', 'For the first time since 2017, Paris Saint-Germain is playing without Neymar, Lionel Messi or Kylian Mbappe, but their goals remain as ambitious as ever.']"
+EA fh|dB|f8
+AS fj|fk|D|fl|61.939
+SE fm|dX|61.939
+SE fo|d0|61.939
+EA e7|D|f2
+AS fq|fr|dB|dC|61.944
+EE d0|j|61.944
+SE fo|d0|61.944
+EA e7|D|f4
+AS fq|fr|dB|dC|61.945
+EE d0|j|61.945
+EE dX|j|61.945
+R fs|aJ|a0|61.945
+EE t|j|61.945
+AS ft|fu|aJ|a0|61.945
+SE ba|t|61.945
+EA bc|aC|aD
+EA bd|D|fv
+EA 3|4|5
+EA 6|7|8
+M f9:"2024-08-29 11:45:37.257 | INFO     | automation.scrapping_latimes:_download_picture:117 - Downloading picture...\n"
+C h|f9|61.949
+EE t|j|61.95
+SE fx|t|61.951
+EA fz|D|f6
+M ga:"'output\\\\news_pic_Brazil_2024-08-29_2.jpg'"
+EA fA|D|ga
+EA fC|aJ|aK
+EA fD|aJ|a0
+EA fE|aJ|a0
+EA fF|aJ|a0
+EA 6|7|8
+R fG|fH|fI|63.748
+EE t|j|63.748
+AS fJ|fK|D|ga|63.749
+M gb:"{'Title': 'By ditching its superstars, Paris Saint-Germain aims to achieve something greater', 'Description': 'For the first time since 2017, Paris Saint-Germain is playing without Neymar, Lionel Messi or Kylian Mbappe, but their goals remain as ambitious as ever.', 'Date': 'Aug. 20, 2024', 'Phrases in Heading': 0, 'Phrases in Description': 0, 'Has Money Amount': False, 'Picture Path': 'output\\\\news_pic_Brazil_2024-08-29_2.jpg'}"
+AS fL|fM|7|gb|63.75
+SE ba|t|63.75
+EA bc|aC|aD
+EA bd|D|fO
+EA 3|4|5
+EA 6|7|8
+M gc:"2024-08-29 11:45:39.063 | INFO     | automation.scrapping_latimes:scrape_news:84 - News appended to data successfully.\n"
+C h|gc|63.75
+EE t|j|63.753
+EE d0|j|63.753
+SE dY|d0|63.754
+M gd:"3"
+EA d1|ag|gd
+M ge:"<selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.480\")>"
+EA d2|cR|ge
+SE ba|t|63.755
+EA bc|aC|aD
+M gf:"'Starting scrapping of news: 3'"
+EA bd|D|gf
+EA 3|4|5
+EA 6|7|8
+M gg:"2024-08-29 11:45:39.068 | INFO     | automation.scrapping_latimes:scrape_news:37 - Starting scrapping of news: 3\n"
+C h|gg|63.757
+EE t|j|63.758
+SE d6|t|63.759
+EA d8|ag|gd
+M gh:"\"//ul[@class='search-results-module-results-menu']/li[3]//p[@class='promo-timestamp']\""
+R d9|D|gh|63.76
+EE t|j|63.76
+SE eb|t|63.761
+EA b0|D|gh
+M gi:"'Aug. 13, 2024'"
+R ed|D|gi|63.824
+EE t|j|63.824
+AS ef|eg|D|gi|63.824
+SE eh|t|63.825
+EA eg|D|gi
+EA el|ag|em
+SE ba|t|63.825
+EA bc|aC|aD
+M gj:"'validating limit date for: Aug. 13, 2024'"
+EA bd|D|gj
+EA 3|4|5
+EA 6|7|8
+M gk:"2024-08-29 11:45:39.139 | INFO     | utils.rpaValidators:validate_date_limit:9 - validating limit date for: Aug. 13, 2024\n"
+C h|gk|63.826
+EE t|j|63.827
+SE ba|t|63.828
+EA bc|aC|aD
+M gl:"'Trying to parse date: Aug. 13, 2024'"
+EA bd|D|gl
+EA 3|4|5
+EA 6|7|8
+M gm:"2024-08-29 11:45:39.140 | INFO     | utils.rpaValidators:_try_parse_date:33 - Trying to parse date: Aug. 13, 2024\n"
+C h|gm|63.829
+EE t|j|63.829
+M gn:"datetime.datetime(2024, 8, 13, 0, 0)"
+AS er|eg|es|gn|63.829
+AS eu|ev|es|ew|63.829
+R ex|aJ|a0|63.829
+EE t|j|63.829
+AS ey|dE|aJ|a0|63.829
+SE ez|t|63.829
+EA d8|ag|gd
+M go:"\"//ul[@class='search-results-module-results-menu']/li[3]//h3[@class='promo-title']/a\""
+R eB|D|go|63.83
+EE t|j|63.83
+SE eb|t|63.83
+EA b0|D|go
+M gp:"'Bond between Alyssa Naeher and Mallory Swanson was a game changer for U.S. Soccer'"
+R ed|D|gp|63.886
+EE t|j|63.886
+AS eE|eF|D|gp|63.886
+SE eG|t|63.887
+EA d8|ag|gd
+M gq:"\"//ul[@class='search-results-module-results-menu']/li[3]//p[@class='promo-description']\""
+R eI|D|gq|63.887
+EE t|j|63.887
+SE eb|t|63.887
+EA b0|D|gq
+M gr:"'As the U.S. women\u2019s soccer team tried to jell, the link between veteran Alyssa Naeher and younger stars such as Mallory Swanson was a game changer.'"
+R ed|D|gr|63.936
+EE t|j|63.936
+AS eL|eM|D|gr|63.936
+SE eN|t|63.936
+EA d8|ag|gd
+M gs:"\"//ul[@class='search-results-module-results-menu']/li[3]//picture/img\""
+R eP|D|gs|63.936
+EE t|j|63.937
+SE eR|t|63.937
+R eT|D|eU|63.937
+EE t|j|63.937
+SE eV|t|63.937
+EA b0|D|gs
+EA eX|D|eU
+M gt:"'https://ca-times.brightspotcdn.com/dims4/default/a93e2cd/2147483647/strip/true/crop/4011x2674+1028+447/resize/840x560!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Faf%2Feb%2F39d286e740738e77a37b1abd444f%2Fparis-olympics-soccer-41957.jpg'"
+R eY|D|gt|63.974
+EE t|j|63.974
+AS e0|e1|D|gt|63.974
+SE ba|t|63.975
+EA bc|aC|aD
+EA bd|D|e2
+EA 3|4|5
+EA 6|7|8
+M gu:"2024-08-29 11:45:39.287 | INFO     | automation.scrapping_latimes:scrape_news:56 - Starting validations for news\n"
+C h|gu|63.977
+EE t|j|63.977
+SE e4|t|63.978
+EA e6|D|cb
+EA e7|D|gp
+AS e8|e9|ag|em|63.978
+R fa|ag|em|63.978
+EE t|j|63.979
+AS fb|fc|ag|em|63.979
+SE e4|t|63.979
+EA e6|D|cb
+EA e7|D|gr
+AS e8|e9|ag|em|63.985
+R fa|ag|em|63.985
+EE t|j|63.985
+AS fd|fe|ag|em|63.992
+SE ff|t|63.992
+M gv:"['Bond between Alyssa Naeher and Mallory Swanson was a game changer for U.S. Soccer', 'As the U.S. women\u2019s soccer team tried to jell, the link between veteran Alyssa Naeher and younger stars such as Mallory Swanson was a game changer.']"
+EA fh|dB|gv
+AS fj|fk|D|fl|63.993
+SE fm|dX|63.993
+SE fo|d0|63.993
+EA e7|D|gp
+AS fq|fr|dB|dC|63.993
+EE d0|j|63.993
+SE fo|d0|63.993
+EA e7|D|gr
+AS fq|fr|dB|dC|63.993
+EE d0|j|63.993
+EE dX|j|63.993
+R fs|aJ|a0|63.993
+EE t|j|63.993
+AS ft|fu|aJ|a0|63.993
+SE ba|t|63.993
+EA bc|aC|aD
+EA bd|D|fv
+EA 3|4|5
+EA 6|7|8
+M gw:"2024-08-29 11:45:39.316 | INFO     | automation.scrapping_latimes:_download_picture:117 - Downloading picture...\n"
+C h|gw|64.003
+EE t|j|64.007
+SE fx|t|64.01
+EA fz|D|gt
+M gx:"'output\\\\news_pic_Brazil_2024-08-29_3.jpg'"
+EA fA|D|gx
+EA fC|aJ|aK
+EA fD|aJ|a0
+EA fE|aJ|a0
+EA fF|aJ|a0
+EA 6|7|8
+R fG|fH|fI|66.749
+EE t|j|66.75
+AS fJ|fK|D|gx|66.75
+M gy:"{'Title': 'Bond between Alyssa Naeher and Mallory Swanson was a game changer for U.S. Soccer', 'Description': 'As the U.S. women\u2019s soccer team tried to jell, the link between veteran Alyssa Naeher and younger stars such as Mallory Swanson was a game changer.', 'Date': 'Aug. 13, 2024', 'Phrases in Heading': 0, 'Phrases in Description': 0, 'Has Money Amount': False, 'Picture Path': 'output\\\\news_pic_Brazil_2024-08-29_3.jpg'}"
+AS fL|fM|7|gy|66.75
+SE ba|t|66.751
+EA bc|aC|aD
+EA bd|D|fO
+EA 3|4|5
+EA 6|7|8
+M gz:"2024-08-29 11:45:42.063 | INFO     | automation.scrapping_latimes:scrape_news:84 - News appended to data successfully.\n"
+C h|gz|66.751
+EE t|j|66.752
+EE d0|j|66.752
+SE dY|d0|66.752
+M gA:"4"
+EA d1|ag|gA
+M gB:"<selenium.webdriver.remote.webelement.WebElement (session=\"2430d68416cc242837dbb843feb954e4\", element=\"f.69573AF6426A26C0BADEFD656F11757B.d.BD62F46A8401001A405339DBDE7126BB.e.481\")>"
+EA d2|cR|gB
+SE ba|t|66.753
+EA bc|aC|aD
+M gC:"'Starting scrapping of news: 4'"
+EA bd|D|gC
+EA 3|4|5
+EA 6|7|8
+M gD:"2024-08-29 11:45:42.066 | INFO     | automation.scrapping_latimes:scrape_news:37 - Starting scrapping of news: 4\n"
+C h|gD|66.756
+EE t|j|66.756
+SE d6|t|66.756
+EA d8|ag|gA
+M gE:"\"//ul[@class='search-results-module-results-menu']/li[4]//p[@class='promo-timestamp']\""
+R d9|D|gE|66.757
+EE t|j|66.757
+SE eb|t|66.757
+EA b0|D|gE
+M gF:"'July 9, 2024'"
+R ed|D|gF|66.945
+EE t|j|66.945
+AS ef|eg|D|gF|66.949
+SE eh|t|66.949
+EA eg|D|gF
+EA el|ag|em
+SE ba|t|66.949
+EA bc|aC|aD
+M gG:"'validating limit date for: July 9, 2024'"
+EA bd|D|gG
+EA 3|4|5
+EA 6|7|8
+M gH:"2024-08-29 11:45:42.262 | INFO     | utils.rpaValidators:validate_date_limit:9 - validating limit date for: July 9, 2024\n"
+C h|gH|66.951
+EE t|j|66.951
+SE ba|t|66.951
+EA bc|aC|aD
+M gI:"'Trying to parse date: July 9, 2024'"
+EA bd|D|gI
+EA 3|4|5
+EA 6|7|8
+M gJ:"2024-08-29 11:45:42.264 | INFO     | utils.rpaValidators:_try_parse_date:33 - Trying to parse date: July 9, 2024\n"
+C h|gJ|66.952
+EE t|j|66.953
+M gK:"datetime.datetime(2024, 7, 9, 0, 0)"
+AS er|eg|es|gK|66.953
+AS eu|ev|es|ew|66.953
+M gM:"if news_date < limit_date"
+P gL:gM|ej|ek|e|23
+SE gL|cV|66.954
+EA eg|es|gK
+EA ev|es|ew
+SE ba|t|66.955
+EA bc|aC|aD
+M gN:"\"This news date '2024-07-09 00:00:00' is not within the limit date '2024-08-01 00:00:00', finishing scrape...\""
+EA bd|D|gN
+EA 3|4|5
+EA 6|7|8
+M gO:"2024-08-29 11:45:42.267 | INFO     | utils.rpaValidators:validate_date_limit:25 - This news date '2024-07-09 00:00:00' is not within the limit date '2024-08-01 00:00:00', finishing scrape...\n"
+C h|gO|66.956
+EE t|j|66.956
+P gP:ei|ej|ek|e|28
+R gP|aJ|aK|66.956
+EE cV|j|66.956
+EE t|j|66.956
+AS ey|dE|aJ|aK|66.957
+M gR:"if has_finished"
+P gQ:gR|bs|bt|e|45
+SE gQ|cV|66.957
+EA dE|aJ|aK
+P gS:dh|bs|bt|e|46
+M gT:"BREAK"
+SE gS|gT|66.957
+EE cV|j|66.957
+EE d0|j|66.957
+EE dX|j|66.957
+EE dM|j|66.957
+EE dJ|j|66.957
+P gU:dh|bs|bt|e|93
+M gV:"[{'Title': 'Galaxy vs. LAFC playoff showdown would be a dream come true for MLS', 'Description': 'With Los Angeles being such an important market for MLS, the rise of the Galaxy and LAFC has to be making league commissioner Don Garber happy.', 'Date': 'Aug. 27, 2024', 'Phrases in Heading': 0, 'Phrases in Description': 0, 'Has Money Amount': False, 'Picture Path': 'output\\\\news_pic_Brazil_2024-08-29_1.jpg'}, {'Title': 'By ditching its superstars, Paris Saint-Germain aims to achieve something greater', 'Description': 'For the first time since 2017, Paris Saint-Germain is playing without Neymar, Lionel Messi or Kylian Mbappe, but their goals remain as ambitious as ever.', 'Date': 'Aug. 20, 2024', 'Phrases in Heading': 0, 'Phrases in Description': 0, 'Has Money Amount': False, 'Picture Path': 'output\\\\news_pic_Brazil_2024-08-29_2.jpg'}, {'Title': 'Bond between Alyssa Naeher and Mallory Swanson was a game changer for U.S. Soccer', 'Description': 'As the U.S. women\u2019s soccer team tried to jell, the link between veteran Alyssa Naeher and younger stars such as Mallory Swanson was a game changer.', 'Date': 'Aug. 13, 2024', 'Phrases in Heading': 0, 'Phrases in Description': 0, 'Has Money Amount': False, 'Picture Path': 'output\\\\news_pic_Brazil_2024-08-29_3.jpg'}]"
+R gU|dB|gV|66.957
+EE t|j|66.957
+P gW:l|m|n|e|30
+AS gW|dA|dB|gV|66.957
+M gY:"SaveData.create_excel_file"
+P gX:gY|bA|bB|e|13
+SE gX|t|66.957
+EA dA|dB|gV
+M gZ:"search_phrase"
+EA gZ|D|cb
+P g0:gY|bA|bB|e|15
+AS g0|aB|aC|aD|66.959
+SE ba|t|66.959
+EA bc|aC|aD
+M g1:"'Creating Excel file'"
+EA bd|D|g1
+EA 3|4|5
+EA 6|7|8
+M g2:"2024-08-29 11:45:42.272 | INFO     | automation.save_data:create_excel_file:16 - Creating Excel file\n"
+C h|g2|66.96
+EE t|j|66.961
+P g3:gY|bA|bB|e|17
+M g4:"output_path"
+AS g3|g4|D|Y|66.961
+P g5:gY|bA|bB|e|19
+M g6:"todays_date"
+M g7:"'2024-08-29'"
+AS g5|g6|D|g7|66.961
+P g8:gY|bA|bB|e|22
+M g9:"filename"
+M ha:"'news_Brazil_2024-08-29.xlsx'"
+AS g8|g9|D|ha|66.962
+M hc:"Files.create_workbook"
+P hb:hc|bE|bF|e|220
+SE hb|t|66.962
+M hd:"path"
+M he:"'output\\\\news_Brazil_2024-08-29.xlsx'"
+EA hd|D|he
+M hf:"fmt"
+M hg:"'xlsx'"
+EA hf|D|hg
+M hh:"sheet_name"
+EA hh|aM|aN
+P hi:hc|bE|bF|e|308
+M hj:"XlsxWorkbook"
+M hk:"<RPA.Excel.Files.XlsxWorkbook object at 0x00000159FD9692D0>"
+R hi|hj|hk|66.982
+EE t|j|66.984
+M hm:"Files.create_worksheet"
+P hl:hm|bE|bF|e|539
+SE hl|t|66.984
+M hn:"'news'"
+EA N|D|hn
+M ho:"content"
+EA ho|dB|gV
+M hp:"exist_ok"
+EA hp|aJ|a0
+M hq:"header"
+EA hq|aJ|aK
+EE t|j|66.99
+M hs:"Files.save_workbook"
+P hr:hs|bE|bF|e|380
+SE hr|t|66.99
+EA hd|aM|aN
+P ht:hs|bE|bF|e|438
+R ht|aM|aN|67.111
+EE t|j|67.111
+SE ba|t|67.112
+EA bc|aC|aD
+M hu:"'Saved Excel file'"
+EA bd|D|hu
+EA 3|4|5
+EA 6|7|8
+M hv:"2024-08-29 11:45:42.424 | INFO     | automation.save_data:create_excel_file:35 - Saved Excel file\n"
+C h|hv|67.112
+EE t|j|67.113
+EE t|j|67.113
+SE ba|t|67.114
+EA bc|aC|aD
+M hw:"\"Scrape of phrase 'Brazil' finished.\""
+EA bd|D|hw
+EA 3|4|5
+EA 6|7|8
+M hx:"2024-08-29 11:45:42.426 | INFO     | tasks:run_process:33 - Scrape of phrase 'Brazil' finished.\n"
+C h|hx|67.114
+EE t|j|67.115
+M hz:"AppController.end_process"
+P hy:hz|w|x|e|27
+SE hy|t|67.115
+M hB:"BrowserManagementKeywords.close_browser"
+M hC:"SeleniumLibrary.keywords.browsermanagement"
+M hD:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\SeleniumLibrary\\keywords\\browsermanagement.py"
+P hA:hB|hC|hD|e|53
+SE hA|t|67.115
+EE t|j|72.492
+EE t|j|72.493
+SE ba|t|72.494
+EA bc|aC|aD
+M hE:"'Finishing process: Scrape Fresh News...'"
+EA bd|D|hE
+EA 3|4|5
+EA 6|7|8
+M hF:"2024-08-29 11:45:47.807 | INFO     | tasks:run_process:40 - Finishing process: Scrape Fresh News...\n"
+C h|hF|72.496
+EE t|j|72.498
+EE t|j|72.498
+C r|l|72.499
+M hG:" status: "
+C f|hG|72.499
+M hH:"PASS\n"
+C f|hH|72.5
+M hI:"================================================================================\n"
+C f|hI|72.5
+ET j|e|72.5
+M hK:"Teardown tasks"
+M hL:"teardown"
+P hJ:hK|hL|e|e|0
+ST hJ|72.5
+M hM:"Process snapshot"
+SPS hM|72.501
+M hN:"System information:\nMemory: Total: 7.9 G, Available: 3.1 G, Used: 60.9 %\nCPUs: 4"
+P hO:e|e|e|e|0
+L I|hN|hO|0|72.704
+M hP:"Current Process: python.exe (pid: 17240, status: running)\nCommand Line: C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\python.exe -m robocorp.tasks run tasks.py\nStarted: 11:44:34\nParent pid: 14292\nResident Set Size: 88.4 M\nVirtual Memory Size: 72.2 M"
+L I|hP|hO|0|72.719
+M hQ:"OutputToPortThread|Thread ID: 17260 (daemon)"
+STD hQ|72.719
+M hR:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\threading.py"
+M hS:"_bootstrap"
+M hT:"self._bootstrap_inner()"
+TBE hR|973|hS|hT
+M hU:"self"
+M hV:"Thread"
+M hW:"<Thread(OutputToPortThread, started daemon 17260)>"
+TBV hU|hV|hW
+M hX:"_bootstrap_inner"
+M hY:"self.run()"
+TBE hR|1016|hX|hY
+TBV hU|hV|hW
+M hZ:"run"
+M h0:"self._target(*self._args, **self._kwargs)"
+TBE hR|953|hZ|h0
+TBV hU|hV|hW
+M h1:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\robocorp\\tasks\\_log_output_setup.py"
+M h2:"write_in_thread"
+M h3:"msg = q.get()"
+TBE h1|73|h2|h3
+M h4:"msg"
+M h5:"'ST hJ|72.49\\n'"
+TBV h4|D|h5
+M h6:"client_socket"
+M h7:"socket"
+M h8:"<socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63024), raddr=('127.0.0.1', 58199)>"
+TBV h6|h7|h8
+M h9:"log"
+M ia:"module"
+M ib:"<module 'robocorp.log' from 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py'>"
+TBV h9|ia|ib
+M ic:"port_in_env"
+M id:"'58199'"
+TBV ic|D|id
+M ie:"q"
+M if:"Queue"
+M ig:"<queue.Queue object at 0x00000159F8DFF100>"
+TBV ie|if|ig
+M ih:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\queue.py"
+M ii:"get"
+M ij:"self.not_empty.wait()"
+TBE ih|171|ii|ij
+TBV hU|if|ig
+M ik:"block"
+TBV ik|aJ|aK
+TBV cp|aM|aN
+M il:"wait"
+M im:"waiter.acquire()"
+TBE hR|320|il|im
+M in:"Condition"
+M io:"<Condition(<unlocked _thread.lock object at 0x00000159FAA24B80>, 1)>"
+TBV hU|in|io
+TBV cp|aM|aN
+M ip:"waiter"
+M iq:"lock"
+M ir:"<locked _thread.lock object at 0x00000159FB555AC0>"
+TBV ip|iq|ir
+M is:"saved_state"
+TBV is|aM|aN
+M it:"gotit"
+TBV it|aJ|a0
+ETD 72.727
+M iu:"MainThread|Thread ID: 14716 (non daemon)"
+STD iu|72.727
+M iv:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\robocorp\\log\\__init__.py"
+M iw:"process_snapshot"
+M ix:"robo_logger.process_snapshot()"
+TBE iv|270|iw|ix
+M iy:"logger_instances"
+M iz:"{<robocorp.log._robo_logger._RoboLogger object at 0x00000159F7998190>: 1, <robocorp.log._robo_logger._RoboLogger object at 0x00000159FAAF9C90>: 1}"
+TBV iy|7|iz
+M iA:"robo_logger"
+M iB:"_RoboLogger"
+M iC:"<robocorp.log._robo_logger._RoboLogger object at 0x00000159F7998190>"
+TBV iA|iB|iC
+M iD:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\robocorp\\log\\_robo_logger.py"
+M iE:"new_func"
+M iF:"return func(self, *args, **kwargs)"
+TBE iD|20|iE|iF
+TBV hU|iB|iC
+TBV 3|4|5
+TBV 6|7|8
+M iG:"func"
+M iH:"function"
+M iI:"<function _RoboLogger.process_snapshot at 0x00000159FAAD5870>"
+TBV iG|iH|iI
+M iJ:"return self._robot_output_impl.process_snapshot(hide_vars)"
+TBE iD|416|iw|iJ
+TBV hU|iB|iC
+M iK:"hide_vars"
+TBV iK|aJ|a0
+M iL:"C:\\ProgramData\\robocorp\\ht\\5f0fd79_b1f3c24_91bb43ea\\lib\\site-packages\\robocorp\\log\\_robo_output_impl.py"
+M iM:"self._dump_threads(hide_vars)"
+TBE iL|748|iw|iM
+TBV iK|aJ|a0
+TBV h9|ia|ib
+M iN:"entry_id"
+M iO:"'ps_0'"
+TBV iN|D|iO
+M iP:"entry_type"
+M iQ:"'process_snapshot'"
+TBV iP|D|iQ
+M iR:"psutil"
+M iS:"<module 'psutil' from 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\lib\\\\site-packages\\\\psutil\\\\__init__.py'>"
+TBV iR|ia|iS
+M iT:"AccessDenied"
+M iU:"type"
+M iV:"<class 'psutil.AccessDenied'>"
+TBV iT|iU|iV
+M iW:"NoSuchProcess"
+M iX:"<class 'psutil.NoSuchProcess'>"
+TBV iW|iU|iX
+M iY:"ZombieProcess"
+M iZ:"<class 'psutil.ZombieProcess'>"
+TBV iY|iU|iZ
+M i0:"curr_process"
+M i1:"Process"
+M i2:"psutil.Process(pid=17240, name='python.exe', status='running', started='11:44:34')"
+TBV i0|i1|i2
+M i3:"log_info"
+M i4:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x00000159FD7B7EB0>"
+TBV i3|iH|i4
+M i5:"memory_info"
+M i6:"'Total: 7.9 G, Available: 3.1 G, Used: 60.9 %'"
+TBV i5|D|i6
+M i7:"child_i"
+TBV i7|ag|em
+M i8:"child"
+TBV i8|i1|i2
+M i9:"'python.exe'"
+TBV N|D|i9
+M ja:"status"
+M jb:"'running'"
+TBV ja|D|jb
+M jc:"create_time"
+M jd:"'11:44:34'"
+TBV jc|D|jd
+M je:"ppid"
+M jf:"'14292'"
+TBV je|D|jf
+M jg:"cmdline"
+M jh:"'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\python.exe -m robocorp.tasks run tasks.py'"
+TBV jg|D|jh
+M ji:"rss"
+M jj:"'88.4 M'"
+TBV ji|D|jj
+M jk:"vms"
+M jl:"'72.2 M'"
+TBV jk|D|jl
+M jm:"proc_memory_info"
+M jn:"pmem"
+M jo:"pmem(rss=92700672, vms=75747328, num_page_faults=87111, peak_wset=94666752, wset=92700672, peak_paged_pool=223648, paged_pool=223472, peak_nonpaged_pool=77456, nonpaged_pool=32608, pagefile=75747328, peak_pagefile=78688256, private=75747328)"
+TBV jm|jn|jo
+M jp:"message"
+M jq:"'Current Process: python.exe (pid: 17240, status: running)\\nCommand Line: C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\python.exe -m robocorp.tasks run tasks.py\\nStarted: 11:44:34\\nParent pid: 14292\\nResident Set Size: 88.4 M\\nVirtual Memory Size: 72.2 M'"
+TBV jp|D|jq
+M jr:"_RoboOutputImpl"
+M js:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x00000159F8DE31C0>"
+TBV hU|jr|js
+M jt:"_dump_threads"
+M ju:"stack.append((f, f.f_lineno))"
+TBE iL|769|jt|ju
+TBV hU|jr|js
+TBV iK|aJ|a0
+M jv:"thread_id"
+M jw:"14716"
+TBV jv|ag|jw
+M jx:"frame"
+M jy:"<frame at 0x00000159FD765640, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>"
+TBV jx|jx|jy
+M jz:"thread"
+M jA:"_MainThread"
+M jB:"<_MainThread(MainThread, started 14716)>"
+TBV jz|jA|jB
+M jC:"title"
+M jD:"'MainThread|Thread ID: 14716 (non daemon)'"
+TBV jC|D|jD
+M jE:"f"
+M jF:"<frame at 0x00000159F7B8C680, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\lib\\\\site-packages\\\\robocorp\\\\tasks\\\\_commands.py', line 494, code run>"
+TBV jE|jx|jF
+M jG:"stack"
+M jH:"[(<frame at 0x00000159FD769B70, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py', line 270, code process_snapshot>, 270), (<frame at 0x00000159FA974440, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x00000159FD7B2DC0, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x00000159F85EB970, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 748, code process_snapshot>, 748), (<frame at 0x00000159FD765640, file 'C:\\\\ProgramData\\\\robocorp\\\\ht\\\\5f0fd79_b1f3c24_91bb43ea\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>, 769)]"
+TBV jG|dB|jH
+ETD 72.731
+EPS 72.731
+ET j|e|72.77
+ER j|72.77

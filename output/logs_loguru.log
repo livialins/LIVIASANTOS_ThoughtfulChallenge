@@ -1,0 +1,239 @@
+2024-08-29T11:39:07.242748-0300 - INFO - Item payload: {'search_phrase': 'Brazil', 'topic': 'Soccer', 'n_months': 0, 'max_news': '999'}
+2024-08-29T11:39:07.251858-0300 - INFO - Search phrase: Brazil
+2024-08-29T11:39:13.972953-0300 - INFO - Selecting topic: Soccer
+2024-08-29T11:39:15.040335-0300 - INFO - Topic selected
+2024-08-29T11:39:20.047737-0300 - INFO - Applying sorting by Newest
+2024-08-29T11:39:25.376743-0300 - INFO - Starting Automation
+2024-08-29T11:39:25.384520-0300 - ERROR - Error scraping fresh news: '<=' not supported between instances of 'int' and 'str'
+2024-08-29T11:39:28.114636-0300 - INFO - Finishing process: Scrape Fresh News...
+2024-08-29T11:41:52.328473-0300 - INFO - Item payload: {'search_phrase': 'Brazil', 'topic': 'Soccer', 'n_months': 0, 'max_news': 999}
+2024-08-29T11:41:52.337694-0300 - INFO - Search phrase: Brazil
+2024-08-29T11:44:22.565586-0300 - ERROR - Error during news search: Message: unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
+  (Session info: chrome=128.0.6613.86)
+Stacktrace:
+	GetHandleVerifier [0x006E8283+26163]
+	(No symbol) [0x00679D34]
+	(No symbol) [0x005724C3]
+	(No symbol) [0x0055D6BC]
+	(No symbol) [0x0055D646]
+	(No symbol) [0x0055C113]
+	(No symbol) [0x0055CC3D]
+	(No symbol) [0x00569418]
+	(No symbol) [0x0057D665]
+	(No symbol) [0x00581CB6]
+	(No symbol) [0x0055D26C]
+	(No symbol) [0x0057D297]
+	(No symbol) [0x005F4992]
+	(No symbol) [0x005DAA56]
+	(No symbol) [0x005ABE89]
+	(No symbol) [0x005AC8CD]
+	GetHandleVerifier [0x009BCF73+2994979]
+	GetHandleVerifier [0x00A117E9+3341209]
+	GetHandleVerifier [0x00777B5F+614159]
+	GetHandleVerifier [0x0077F1EC+644508]
+	(No symbol) [0x0068286D]
+	(No symbol) [0x0067F768]
+	(No symbol) [0x0067F905]
+	(No symbol) [0x00671C86]
+	BaseThreadInitThunk [0x7579FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777C80CE+286]
+	RtlGetAppContainerNamedObjectPath [0x777C809E+238]
+
+Traceback (most recent call last):
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': 'robocorp.tasks', '__loader__': <_frozen_importlib_external.SourceFi...
+           │         └ <code object <module> at 0x000002457FE85630, file "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\robo...
+           └ <function _run_code at 0x000002457F9739A0>
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': 'robocorp.tasks', '__loader__': <_frozen_importlib_external.SourceFi...
+         └ <code object <module> at 0x000002457FE85630, file "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\robo...
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\robocorp\tasks\__main__.py", line 4, in <module>
+    main()
+    └ <function main at 0x0000024500F13E20>
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\robocorp\tasks\cli.py", line 121, in main
+    returncode = dispatcher.process_args(args, pm=plugin_manager)
+                 │          │            │        └ None
+                 │          │            └ ['run', 'tasks.py']
+                 │          └ <function _ArgDispatcher.process_args at 0x0000024502ACE950>
+                 └ <robocorp.tasks._argdispatch._ArgDispatcher object at 0x0000024502A9C2E0>
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\robocorp\tasks\_argdispatch.py", line 230, in process_args
+    return self._dispatch(parsed, pm)
+           │    │         │       └ None
+           │    │         └ Namespace(command='run', path='tasks.py', glob=None, task_name=None, output_dir='', max_log_files=5, max_log_file_size='1MB',...
+           │    └ <function _ArgDispatcher._dispatch at 0x0000024502ACE440>
+           └ <robocorp.tasks._argdispatch._ArgDispatcher object at 0x0000024502A9C2E0>
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\robocorp\tasks\_argdispatch.py", line 25, in _dispatch
+    return method(**dct)
+           │        └ {'path': 'tasks.py', 'glob': None, 'task_name': None, 'output_dir': '', 'max_log_files': 5, 'max_log_file_size': '1MB', 'cons...
+           └ <function run at 0x0000024502ACEA70>
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\robocorp\tasks\_commands.py", line 453, in run
+    result = task.run(**kwargs)
+             │    │     └ {}
+             │    └ <function Task.run at 0x0000024502B78F70>
+             └ Task(run_process, status: NOT_RUN)
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\robocorp\tasks\_task.py", line 57, in run
+    return self.method(**kwargs)
+           │    │        └ {}
+           │    └ <function run_process at 0x0000024502BFC9D0>
+           └ Task(run_process, status: NOT_RUN)
+
+  File "c:\Users\LIVIA\Desktop\LIVIASANTOS_ThoughtfulChallenge\tasks.py", line 29, in run_process
+    search_news.execute_news_search()
+    │           └ <function NewsSearcher.execute_news_search at 0x00000245051108B0>
+    └ <automation.search_latimes.NewsSearcher object at 0x0000024502FFE830>
+
+> File "c:\Users\LIVIA\Desktop\LIVIASANTOS_ThoughtfulChallenge\automation\search_latimes.py", line 50, in execute_news_search
+    self.execute_search_phrase()
+    │    └ <function NewsSearcher.execute_search_phrase at 0x000002450513BD90>
+    └ <automation.search_latimes.NewsSearcher object at 0x0000024502FFE830>
+
+  File "c:\Users\LIVIA\Desktop\LIVIASANTOS_ThoughtfulChallenge\automation\search_latimes.py", line 26, in execute_search_phrase
+    self.browser.click_button(self.locators.submit_search_btn())
+    │    │                    │    │        └ <staticmethod(<function Locators.submit_search_btn at 0x0000024506102E60>)>
+    │    │                    │    └ <utils.locators.Locators object at 0x0000024502FFC250>
+    │    │                    └ <automation.search_latimes.NewsSearcher object at 0x0000024502FFE830>
+    │    └ <RPA.Browser.Selenium.Selenium object at 0x00000245030A7E80>
+    └ <automation.search_latimes.NewsSearcher object at 0x0000024502FFE830>
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\SeleniumLibrary\keywords\element.py", line 603, in click_button
+    element.click()
+    │       └ <function WebElement.click at 0x00000245055BF7F0>
+    └ <selenium.webdriver.remote.webelement.WebElement (session="a3df8f25ef3f0efa6b5b7ea32789bf8a", element="f.FF9B68C0D536FDDC4A64...
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+    │    │        │       └ 'clickElement'
+    │    │        └ <class 'selenium.webdriver.remote.command.Command'>
+    │    └ <function WebElement._execute at 0x00000245055A4670>
+    └ <selenium.webdriver.remote.webelement.WebElement (session="a3df8f25ef3f0efa6b5b7ea32789bf8a", element="f.FF9B68C0D536FDDC4A64...
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\selenium\webdriver\remote\webelement.py", line 394, in _execute
+    return self._parent.execute(command, params)
+           │    │       │       │        └ {'id': 'f.FF9B68C0D536FDDC4A64FBD19411D693.d.FBD08C5B4607BD1F7905E431CD6DC852.e.80'}
+           │    │       │       └ 'clickElement'
+           │    │       └ <function WebDriver.execute at 0x00000245055A6710>
+           │    └ <selenium.webdriver.chrome.webdriver.WebDriver (session="a3df8f25ef3f0efa6b5b7ea32789bf8a")>
+           └ <selenium.webdriver.remote.webelement.WebElement (session="a3df8f25ef3f0efa6b5b7ea32789bf8a", element="f.FF9B68C0D536FDDC4A64...
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+    │    │             │              └ {'status': 500, 'value': '{"value":{"error":"unknown error","message":"unknown error: cannot determine loading status\\nfrom ...
+    │    │             └ <function ErrorHandler.check_response at 0x0000024505E71870>
+    │    └ <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000002457F9C0A90>
+    └ <selenium.webdriver.chrome.webdriver.WebDriver (session="a3df8f25ef3f0efa6b5b7ea32789bf8a")>
+
+  File "C:\ProgramData\robocorp\ht\5f0fd79_b1f3c24_91bb43ea\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+          │               │        │       └ ['\tGetHandleVerifier [0x006E8283+26163]', '\t(No symbol) [0x00679D34]', '\t(No symbol) [0x005724C3]', '\t(No symbol) [0x0055...
+          │               │        └ None
+          │               └ 'unknown error: cannot determine loading status\nfrom disconnected: unable to send message to renderer\n  (Session info: chro...
+          └ <class 'selenium.common.exceptions.WebDriverException'>
+
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
+  (Session info: chrome=128.0.6613.86)
+Stacktrace:
+	GetHandleVerifier [0x006E8283+26163]
+	(No symbol) [0x00679D34]
+	(No symbol) [0x005724C3]
+	(No symbol) [0x0055D6BC]
+	(No symbol) [0x0055D646]
+	(No symbol) [0x0055C113]
+	(No symbol) [0x0055CC3D]
+	(No symbol) [0x00569418]
+	(No symbol) [0x0057D665]
+	(No symbol) [0x00581CB6]
+	(No symbol) [0x0055D26C]
+	(No symbol) [0x0057D297]
+	(No symbol) [0x005F4992]
+	(No symbol) [0x005DAA56]
+	(No symbol) [0x005ABE89]
+	(No symbol) [0x005AC8CD]
+	GetHandleVerifier [0x009BCF73+2994979]
+	GetHandleVerifier [0x00A117E9+3341209]
+	GetHandleVerifier [0x00777B5F+614159]
+	GetHandleVerifier [0x0077F1EC+644508]
+	(No symbol) [0x0068286D]
+	(No symbol) [0x0067F768]
+	(No symbol) [0x0067F905]
+	(No symbol) [0x00671C86]
+	BaseThreadInitThunk [0x7579FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777C80CE+286]
+	RtlGetAppContainerNamedObjectPath [0x777C809E+238]
+
+2024-08-29T11:44:22.648627-0300 - ERROR - Error scraping fresh news: Message: unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
+  (Session info: chrome=128.0.6613.86)
+Stacktrace:
+	GetHandleVerifier [0x006E8283+26163]
+	(No symbol) [0x00679D34]
+	(No symbol) [0x005724C3]
+	(No symbol) [0x0055D6BC]
+	(No symbol) [0x0055D646]
+	(No symbol) [0x0055C113]
+	(No symbol) [0x0055CC3D]
+	(No symbol) [0x00569418]
+	(No symbol) [0x0057D665]
+	(No symbol) [0x00581CB6]
+	(No symbol) [0x0055D26C]
+	(No symbol) [0x0057D297]
+	(No symbol) [0x005F4992]
+	(No symbol) [0x005DAA56]
+	(No symbol) [0x005ABE89]
+	(No symbol) [0x005AC8CD]
+	GetHandleVerifier [0x009BCF73+2994979]
+	GetHandleVerifier [0x00A117E9+3341209]
+	GetHandleVerifier [0x00777B5F+614159]
+	GetHandleVerifier [0x0077F1EC+644508]
+	(No symbol) [0x0068286D]
+	(No symbol) [0x0067F768]
+	(No symbol) [0x0067F905]
+	(No symbol) [0x00671C86]
+	BaseThreadInitThunk [0x7579FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777C80CE+286]
+	RtlGetAppContainerNamedObjectPath [0x777C809E+238]
+
+2024-08-29T11:44:24.980364-0300 - INFO - Finishing process: Scrape Fresh News...
+2024-08-29T11:45:19.135405-0300 - INFO - Item payload: {'search_phrase': 'Brazil', 'topic': 'Soccer', 'n_months': 0, 'max_news': 999}
+2024-08-29T11:45:19.143449-0300 - INFO - Search phrase: Brazil
+2024-08-29T11:45:24.070124-0300 - INFO - Selecting topic: Soccer
+2024-08-29T11:45:24.474503-0300 - INFO - Topic selected
+2024-08-29T11:45:29.478352-0300 - INFO - Applying sorting by Newest
+2024-08-29T11:45:34.806058-0300 - INFO - Starting Automation
+2024-08-29T11:45:34.886116-0300 - INFO - Starting scrapping of news: 1
+2024-08-29T11:45:34.956870-0300 - INFO - validating limit date for: Aug. 27, 2024
+2024-08-29T11:45:34.959345-0300 - INFO - Trying to parse date: Aug. 27, 2024
+2024-08-29T11:45:35.132617-0300 - INFO - Starting validations for news
+2024-08-29T11:45:35.148949-0300 - INFO - Downloading picture...
+2024-08-29T11:45:37.051982-0300 - INFO - News appended to data successfully.
+2024-08-29T11:45:37.059574-0300 - INFO - Starting scrapping of news: 2
+2024-08-29T11:45:37.103903-0300 - INFO - validating limit date for: Aug. 20, 2024
+2024-08-29T11:45:37.108482-0300 - INFO - Trying to parse date: Aug. 20, 2024
+2024-08-29T11:45:37.248968-0300 - INFO - Starting validations for news
+2024-08-29T11:45:37.257935-0300 - INFO - Downloading picture...
+2024-08-29T11:45:39.063028-0300 - INFO - News appended to data successfully.
+2024-08-29T11:45:39.068845-0300 - INFO - Starting scrapping of news: 3
+2024-08-29T11:45:39.139060-0300 - INFO - validating limit date for: Aug. 13, 2024
+2024-08-29T11:45:39.140203-0300 - INFO - Trying to parse date: Aug. 13, 2024
+2024-08-29T11:45:39.287690-0300 - INFO - Starting validations for news
+2024-08-29T11:45:39.316141-0300 - INFO - Downloading picture...
+2024-08-29T11:45:42.063892-0300 - INFO - News appended to data successfully.
+2024-08-29T11:45:42.066925-0300 - INFO - Starting scrapping of news: 4
+2024-08-29T11:45:42.262223-0300 - INFO - validating limit date for: July 9, 2024
+2024-08-29T11:45:42.264226-0300 - INFO - Trying to parse date: July 9, 2024
+2024-08-29T11:45:42.267294-0300 - INFO - This news date '2024-07-09 00:00:00' is not within the limit date '2024-08-01 00:00:00', finishing scrape...
+2024-08-29T11:45:42.272428-0300 - INFO - Creating Excel file
+2024-08-29T11:45:42.424810-0300 - INFO - Saved Excel file
+2024-08-29T11:45:42.426871-0300 - INFO - Scrape of phrase 'Brazil' finished.
+2024-08-29T11:45:47.807996-0300 - INFO - Finishing process: Scrape Fresh News...
